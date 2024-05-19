@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="text_to_share">Text to share</string>
+    <string name="text_share">Text Share</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="open_phone_call">Open Phone Call</string>
+    <string name="open_webpage">Open WebPage</string>
+    <string name="button">Button</string>
+    <string name="implicit">IMPLICIT</string>
+    <string name="explicit">EXPLICIT</string>
+</resources>
