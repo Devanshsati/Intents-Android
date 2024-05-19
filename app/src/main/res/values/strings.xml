@@ -5,7 +5,10 @@
     <string name="open_camera">Open Camera</string>
     <string name="open_phone_call">Open Phone Call</string>
     <string name="open_webpage">Open WebPage</string>
-    <string name="button">Button</string>
+    <string name="profile_button">Go To Profile</string>
     <string name="implicit">IMPLICIT</string>
     <string name="explicit">EXPLICIT</string>
+    <string name="explicit_activity">Explicit Activity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="return_to_mainactivity">Return To MainActivity</string>
 </resources>

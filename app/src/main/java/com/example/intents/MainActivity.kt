@@ -28,13 +28,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.button4.setOnClickListener {
-            val text: String = binding.editTextText.toString()
+            val text: String = binding.editTextText.text.toString()
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
             intent.putExtra(Intent.EXTRA_TEXT, text)
             startActivity(Intent.createChooser(intent, "Share via"))
         }
-
-
+        binding.button5.setOnClickListener {
+            val intent = Intent(this,ProfileActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
